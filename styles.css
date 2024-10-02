@@ -1,0 +1,142 @@
+.about{
+    margin: 50px 20px 20px 20px;
+    background-color: #f2faf4;
+}
+
+
+.active {
+    color: #80db66; /* Color for the active link */
+}
+
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #282828;
+
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #80db66;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    right: 20px; /* Position the button on the far right */
+}
+
+
+.center_text{
+    text-align: center;
+}
+
+.home{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    height: 60px;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #80db66;
+}
+
+.nav-links a.active {
+    color: #80db66; /* Color for the active link */
+}
+
+.section_home_green_heading{
+    color: #80db66;
+    font-size: 24px;
+    
+    padding: auto;
+   
+    align-items: center;
+    
+}
+
+.section_home_changing_designation{
+    font-size: 32px;
+}
+
+.section_home_white_heading{
+    font-size: 24px;
+}
+
+.section_home_name{
+    font-size: 100px;
+}
+
+.section_home_info{
+    margin: 24px;
+}
+
+
+.section_about_profile_div{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 100px;
+    white-space: normal;
+    width: 40%;
+   
+   
+}
+
+.section_about_profile_img{
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.section_about_info_div{
+    padding: 100px 20px 20px 100px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    word-wrap: break-word;
+    white-space: normal;
+    width: 50%;
+   
+    
+} 
+
+
+.white_text{
+    color: white;
+}
+
+
+
