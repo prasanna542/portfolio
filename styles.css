@@ -27,6 +27,11 @@ button {
     transition: background-color 0.3s ease;
     position: absolute;
     right: 20px; /* Position the button on the far right */
+    
+}
+button a{
+    text-decoration: none;
+    color: inherit;
 }
 
 
